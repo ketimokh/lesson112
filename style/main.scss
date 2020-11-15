@@ -38,7 +38,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     max-width: 1300px;
     width: 100%;
     padding:5px;
-    margin:0 auto;
+    margin:5px auto;
+  }
+  .image-box{
+    background-image: url(../pictures/image.png);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    height: 613px;
   }
   .main-logo{
     width: 100px;
@@ -62,15 +68,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   .navbar{
     margin-left: 500px;
   }
+  .navbar-li a {
+    color: #707070;
+    padding: 20px;
+  }
   .title{
     padding-bottom: 50px;
-      background-color: #fff;
+    background-color: #fff;
   }
   .title h2{
     font-size: 40px;
     color: #707070;
     padding-top: 50px;
-    font-family: 'Archy EDT';
   }
   .box-content{
     display: flex;
@@ -87,15 +96,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     width: 400px;
     height: 500px;
   }
-    .box-size1 h3{
-      font-size: 30px;
+  .box-size1 h3{
+    font-size: 30px;
     padding-top: 20px;
-    font-family: 'Archy EDT';
-    }
-    .box-size1 p{
+  }
+  .box-size1 p{
     font-size: 18px;
     padding-top: 20px;
-    font-family: 'Pierre Dingbats';
   }
   .size{
     width: 400px;
@@ -103,7 +110,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   .box-size h3{
     font-size: 30px;
     padding-top: 20px;
-    font-family: 'Archy EDT';
   }
   .box-size p{
     font-size: 18px;
@@ -129,11 +135,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background-color: #2E2E2E;
   }
   .li-contact{
-    h4{
-      color: #fff;
-      font-size: 20px;
-      padding-top: 2px;
-    }
+    color: #fff;
+    font-size: 20px;
+    padding-top: 2px;
   }
   .li-adress{
     font-size: 13px;
@@ -143,5 +147,5 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   .icon{
     width: 43px;
     height: 43px;
-    padding-right: 10px;
+    padding:5px;
   }

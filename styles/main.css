@@ -35,7 +35,13 @@ table {
   max-width: 1300px;
   width: 100%;
   padding: 5px;
-  margin: 0 auto; }
+  margin: 5px auto; }
+
+.image-box {
+  background-image: url(../pictures/image.png);
+  background-repeat: no-repeat;
+  background-size: 1400px;
+  height: 613px; }
 
 .main-logo {
   width: 100px;
@@ -59,6 +65,10 @@ header {
 .navbar {
   margin-left: 500px; }
 
+.navbar-li a {
+  color: #707070;
+  padding: 20px; }
+
 .title {
   padding-bottom: 50px;
   background-color: #fff; }
@@ -66,8 +76,7 @@ header {
 .title h2 {
   font-size: 40px;
   color: #707070;
-  padding-top: 50px;
-  font-family: 'Archy EDT'; }
+  padding-top: 50px; }
 
 .box-content {
   display: flex;
@@ -86,21 +95,18 @@ header {
 
 .box-size1 h3 {
   font-size: 30px;
-  padding-top: 20px;
-  font-family: 'Archy EDT'; }
+  padding-top: 20px; }
 
 .box-size1 p {
   font-size: 18px;
-  padding-top: 20px;
-  font-family: 'Pierre Dingbats'; }
+  padding-top: 20px; }
 
 .size {
   width: 400px; }
 
 .box-size h3 {
   font-size: 30px;
-  padding-top: 20px;
-  font-family: 'Archy EDT'; }
+  padding-top: 20px; }
 
 .box-size p {
   font-size: 18px;
@@ -125,7 +131,7 @@ header {
   align-items: center;
   background-color: #2E2E2E; }
 
-.li-contact h4 {
+.li-contact {
   color: #fff;
   font-size: 20px;
   padding-top: 2px; }
@@ -138,4 +144,4 @@ header {
 .icon {
   width: 43px;
   height: 43px;
-  padding-right: 10px; }
+  padding: 5px; }
