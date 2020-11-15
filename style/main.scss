@@ -149,3 +149,51 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     height: 43px;
     padding:5px;
   }
+  @media (max-width: 768px){
+    .image-box{
+      background-image: url(../pictures/yannis.png);
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      padding: 10px;
+      left: 0;
+    }
+    .box-size1{ 
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    .navbar{
+      display: none;
+      }  
+  }
+  @media (max-width: 480px){
+    .box-size img{
+      display: none;
+    }
+    .box-size{
+      background-image: url(../pictures/neo.png);
+      background-repeat: no-repeat;
+      width: 80%;
+      height: 400px;
+      padding-top:300px;
+      margin: 20px;
+      display: block;
+      text-align: center;
+      align-items: center;
+    }
+    .title{
+      display: inline-block;
+      text-align: center;
+    }
+    .main-logo{
+      display: none;
+    }
+    .nav-menu{
+      display: block;
+      text-align: center;
+      align-items: center;
+    }
+  }
