@@ -33,37 +33,115 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   table {
     border-collapse: collapse;
     border-spacing: 0; }
-    .conteiner{
-        max-width: 1300px;
-        width: 100%;
-        padding:5px;
-        margin:2px auto;
-    }
 
+  .conteiner{
+    max-width: 1300px;
+    width: 100%;
+    padding:5px;
+    margin:0 auto;
+  }
+  .main-logo{
+    width: 100px;
+    height: 95px;
+    right: 0;
+  }
    header{
-        .main-logo1{
-            width: 100px;
-            height: 95px;
-            left: 200px;
-            .flex{
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: center;
-                width: 100%;
-                position: fixed;
-                background-color:white;
-                right: 0;
-                left: 0;
-                .navbar{
-                    margin-left: 500px;
-                    .navbar-li {
-                        color: #707070;
-                        padding: 20px;
-                    } 
-                }
-            }   
-                
-        }
-     
-    }       
+    width: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    color: grey;
+    background-color: #fff;
+  }
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar{
+    margin-left: 500px;
+  }
+  .title{
+    padding-bottom: 50px;
+      background-color: #fff;
+  }
+  .title h2{
+    font-size: 40px;
+    color: #707070;
+    padding-top: 50px;
+    font-family: 'Archy EDT';
+  }
+  .box-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+  }
+  .box-size{
+    width: 400px;
+    height: 500px;
+  }
+  .box-size1{
+    width: 400px;
+    height: 500px;
+  }
+    .box-size1 h3{
+      font-size: 30px;
+    padding-top: 20px;
+    font-family: 'Archy EDT';
+    }
+    .box-size1 p{
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: 'Pierre Dingbats';
+  }
+  .size{
+    width: 400px;
+  }
+  .box-size h3{
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: 'Archy EDT';
+  }
+  .box-size p{
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  .more{
+    font-size: 24px;
+    float: right;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: #707070;
+  }
+  .load{
+    text-align: center;
+    font-size: 30px;
+    color: #707070;
+  } 
+  .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #2E2E2E;
+  }
+  .li-contact{
+    h4{
+      color: #fff;
+      font-size: 20px;
+      padding-top: 2px;
+    }
+  }
+  .li-adress{
+    font-size: 13px;
+    color: #fff;
+    padding-top: 2px;
+  }
+  .icon{
+    width: 43px;
+    height: 43px;
+    padding-right: 10px;
+  }
